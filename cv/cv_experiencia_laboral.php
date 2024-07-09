@@ -8,14 +8,14 @@
                   "200pt",  
                   slang("",""),
                   slang("",""),
-                  slang("Desarrollo PHP Full Stack","Software Development Full Stack"),
-                  slang("PHP, GitHub, REST API, CI/CD, SCRUM, PHP Unit","PHP, GitHub, REST API, CI/CD, SCRUM, PHP Unit"),
+                  slang("Desarrollo PHP Full Stack","Software Engineer role, Team Leadership, Tech Risk Analysis, Fast Prototyping. DevOps. PHP Dev."),
+                  slang("PHP, GitHub, REST API, CI/CD, SCRUM, PHP Unit","PHP, GitHub, REST API, CI/CD, DevOps, SCRUM, PHP Unit, . Project with World wide user base."),
                   slang("9 meses (actual)","9 months"),
                 );
             ?>
 
           <?php productWork(
-                  slang("Ministerio de Habitat y Vivienda","Habitat Ministry (Government)"),
+                  slang("Ministerio de Habitat y Vivienda","Habitat Ministry (Gov.)"),
                   "vivienda-logo.png",
                   "200pt",
                   slang("",""),

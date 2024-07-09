@@ -1,6 +1,6 @@
 <?php
   function activeLang() {
-    return @$_GET["lang"]=="en" ? "en" : "es";
+    return @$_GET["lang"]=="es" ? "es" : "en";
   }
 
   function lang($es,$en="") {

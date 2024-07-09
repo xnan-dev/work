@@ -18,6 +18,8 @@ include_once("cv_proyectos.php");
 include_once("cv_qr.php");
 include_once("cv_contact.php");
 include_once("cv_trainings.php");
+include_once("cv_workbench_projects.php");
+include_once("cv_settings_workBenchProjects.php");
 
 ?>
 <!doctype html>
@@ -36,14 +38,18 @@ include_once("cv_trainings.php");
      <div class="col">
           <div class="row">
               <div class="col band-name">
-                <b><?php lang("Hernán","Hernan");?></b> Gabriel Rancati      
+                <b><?php lang("Hernán","Hernan");?></b> G. Rancati      
               </div>
           </div>        
           <div class="row">
-            <div class="col text-right  band-update">
-              <?php lang("Act. Noviembre de 2023","Updated: Noviembre 2023");?>
+            <div class="col band-sub-name">
+                  <?php lang("Computación Científica e Ingeniería","Computer Science & Engineering");?>
             </div>
-          </div>          
+          </div>        
+          <div class="row">
+            <div class="col text-right  band-update">
+              <?php lang("Julio de 2024","2024, July");?>
+            </div>          
         </div>
    
 <?php }?>
@@ -54,7 +60,7 @@ include_once("cv_trainings.php");
             <table class="table_middle" bordercolor="#ff0000" border="0">
                 <tr class="row_top">
                   <td class="band_b1 band_x01">&nbsp;
-                    <div><img style="width:175pt;margin-bottom:0pt;margin-top:00pt;border-radius:50%;margin-right:27pt;" src="images/profile.jfif"></div>
+                    <div><img class="img_profile" src="images/profile.jfif"></div>
                   </td>
                   <td style="background-image: url('images/background.jfif');" class="band_top band_a band_x02" colspan="3"><?php bandOrange(); ?></td>
                   <td class="band_x03"></td>
@@ -76,9 +82,15 @@ include_once("cv_trainings.php");
                 <tr>
                   <td class="band_b1 band_x21"><div class="div_b1"><?php lang("Capacitaciones","Trainings");?></div></td>
                   <td class="band_b2 band_x22"><?php bandTrainings();?></td>
-                  <td class="band_x23"></td>
-                  
+                  <td class="band_x23"></td>                  
                 </tr>
+
+                <tr>
+                  <td class="band_b1 band_x21"><div class="div_b1"><?php lang("Bancos de Pruebas","WorkBench Projects");?></div></td>
+                  <td class="band_b2 band_x22"><?php bandWorkBenchProjects();?></td>
+                  <td class="band_x23"></td>                  
+                </tr>
+
                 <tr>
                   <td class="band_b1 band_x21"><div class="div_b1"><?php lang("Actividades","Skills and Tech");?></div></td>
                   <td class="band_b2 band_x22"><?php bandSkillsAndTech();?></td>

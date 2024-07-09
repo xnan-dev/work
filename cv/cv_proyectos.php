@@ -1,9 +1,65 @@
 <?php  function bandProjects() { ?>
+
+          <?php productWork(
+                  slang("Megalabs","Megalabs"),
+                  "megalabs-logo.jpg",
+                  "200pt",
+                  slang("Consultor","Contractor"),
+                  slang("Mobile Apps","Mobile Apps"),
+                  slang("Desarrollo, Análisis de performance, Integración Microsoft Dynamics 365 UI to Mobile HTML y Prototipado",
+                    "Rapid Prototyping, Performance Analysis, Microsoft Dynamics UI to Mobile HTML Integration"),
+                  slang("Microsoft Dynamics 365, Web Dev Stack","Microsoft Dynamics 365, Web Dev Stack"),
+                  slang(""),
+                  /*slang("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap"),*/
+                );
+            ?>
+
+
+          <?php productWork(
+                  slang("Axite S.R.L.","Axite S.R.L."),
+                  "axite-logo.png",
+                  "100pt",
+                  slang("Consultor","Contractor"),
+                  slang("Prototipo de Bridge entre driver de balanza industrial y Microsoft Dynamics 365","Prototype: Service Bridge between Industrial Balance driver to Microsoft Dynamics 365"),
+                  slang("Arquitectura de Software, Desarrollo y Prototipado","Rapid Prototyping, Software Architecture, Development"),
+                  slang("C# .NET , Microsoft Dynamics 365 FO","C# .NET , Microsoft Dynamics 365 FO"),
+                  slang(""),
+                  /*slang("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap"),*/
+                );
+            ?>
+
+
+            <?php productWork(
+                  slang("VISA","VISA"),
+                  "visa-logo.png",
+                  "100pt",
+                  slang("Consultor","Contractor"),
+                  slang("Sistema de Gestion Interno","Internal Management system"),
+                  slang("Reingeniería, Deploy a producción","Reengineering, deploy to production"),
+                  slang("Java, Spring, Hibernate","Java, Spring, Hibernate"),
+                  slang(""),
+                  slang("Tomé el liderazgo del proyecto cuando la entrega del sistema estaba retrasada. Rescato como positivo el hecho de que el sistema salió en breve a producción","I took leadership over the project when it was overdue. I take as positive the fact that the project in brief got to production."),
+                );
+            ?>
+
+            <?php productWork(
+                              slang("NEXTEL","NEXTEL"),
+                              "nextel-logo.jfif",
+                              "150pt",
+                              slang("Consultor","Contractor"),
+                              slang("Sistema de Gestion Interno","Internal Management system"),
+                              slang("Reingeniería, Deploy a producción","Reengineering, deploy to production"),
+                              slang("Java, Spring, Hibernate","Java, Spring, Hibernate"),
+                              slang(""),
+                              slang("Tomé el liderazgo del proyecto cuando la entrega del sistema estaba retrasada. Rescato como positivo el hecho de que el sistema salió en breve a producción","I took leadership over the project when it was overdue. I take as positive the fact that the project in brief got to production."),
+                        );
+                        ?>
+
             <?php productWork(
                 slang("Shell","Shell"),
                 "shell-logo.png",
                 "100pt",
-                slang("Consultor","Consultant"),
+                slang("Consultor","Contractor"),
                 slang("Bridge SAP to HTTPS","SAP to HTTPS Bridge"),
                 slang( "Prototipado rápido, Análisis funcional, Arqutitectura de software, Implementación, Documentación y Deploy a producción","Rapid Prototyping, Functional Analysis, Software Architecture Design, Development, Documentation, Deployment to production"),
                 slang("Java, Agile","Java, Rapid Prototyping, Agile"),
@@ -21,80 +77,12 @@
               );
             ?>
 
-            <?php productWork(
-                  slang("VISA","VISA"),
-                  "visa-logo.png",
-                  "100pt",
-                  slang("Consultor","Consultant"),
-                  slang("Sistema de Gestion Interno","Internal Management system"),
-                  slang("Reingeniería, Deploy a producción","Reengineering, deploy to production"),
-                  slang("Java, Spring, Hibernate","Java, Spring, Hibernate"),
-                  slang(""),
-                  slang("Tomé el liderazgo del proyecto cuando la entrega del sistema estaba retrasada. Rescato como positivo el hecho de que el sistema salió en breve a producción","I took leadership over the project when it was overdue. I take as positive the fact that the project in brief got to production."),
-                );
-            ?>
-
-
-            <?php productWork(
-                  slang("NEXTEL","NEXTEL"),
-                  "nextel-logo.jfif",
-                  "150pt",
-                  slang("Consultor","Consultant"),
-                  slang("Sistema de Gestion Interno","Internal Management system"),
-                  slang("Reingeniería, Deploy a producción","Reengineering, deploy to production"),
-                  slang("Java, Spring, Hibernate","Java, Spring, Hibernate"),
-                  slang(""),
-                  slang("Tomé el liderazgo del proyecto cuando la entrega del sistema estaba retrasada. Rescato como positivo el hecho de que el sistema salió en breve a producción","I took leadership over the project when it was overdue. I take as positive the fact that the project in brief got to production."),
-            );
-            ?>
-
-            <?php productWork(
-                  slang("Megalabs","Megalabs"),
-                  "megalabs-logo.jpg",
-                  "200pt",
-                  slang("Consultor","Consultant"),
-                  slang("Mobile Apps","Mobile Apps"),
-                  slang("Desarrollo, Análisis de performance, Integración Microsoft Dynamics 365 UI to Mobile HTML y Prototipado",
-                    "Rapid Prototyping, Performance Analysis, Microsoft Dynamics UI to Mobile HTML Integration"),
-                  slang("Microsoft Dynamics 365, Web Dev Stack","Microsoft Dynamics 365, Web Dev Stack"),
-                  slang(""),
-                  /*slang("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap"),*/
-                );
-            ?>
-
-            <?php productWork(
-                  slang("Axite S.R.L.","Axite S.R.L."),
-                  "axite-logo.png",
-                  "100pt",
-                  slang("Consultor","Consultant"),
-                  slang("Prototipo de Bridge entre driver de balanza industrial y Microsoft Dynamics 365","Prototype: Service Bridge between Industrial Balance driver to Microsoft Dynamics 365"),
-                  slang("Arquitectura de Software, Desarrollo y Prototipado","Rapid Prototyping, Software Architecture, Development"),
-                  slang("C# .NET , Microsoft Dynamics 365 FO","C# .NET , Microsoft Dynamics 365 FO"),
-                  slang(""),
-                  /*slang("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap"),*/
-                );
-            ?>
-            
-            <?php productWork(
-                  slang("Axite S.R.L.","Axite S.R.L."),
-                  "axite-logo.png",
-                  "100pt",
-                  slang("Consultor","Consultant"),
-                  slang("Prototipo de Bridge entre Dispositivo industrial de control de almacenes y Microsoft Dynamics 365 FO","Prototype for Web Bridge between Industrial Warehouse Device and Microsoft Dynamics 365"),
-                  slang("Arquitectura de Software, Desarrollo y Prototipado","Rapid Prototyping, Software Architecture, Development"),
-                  slang("C# .NET , Microsoft Dynamics 365 FO","C# .NET , Microsoft Dynamics 365 FO"),
-                  slang(""),
-                  /*slang("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap"),*/
-                );
-            ?>
-
-
 
             <?php productWork(
                   slang("Citröen Argentina","Citröen Argentina"),
                   "citroen-logo.jfif",
                   "100pt",
-                  slang("Consultor","Consultant"),
+                  slang("Consultor","Contractor"),
                   slang("Platform for media sharing","Platform for media sharing"),
                   slang("Prototipado rápido, Análisis funcional, Arqutitectura de software, Implementación, Documentación y Deploy a producción","Rapid Prototyping, Functional Analysis, Software Architecture Design, Development, Documentation, Deployment to production"),                  
                   slang("C# .NET, SQL Server, ASPX, .NET Desktop App Dev","C# .NET, SQL Server, ASPX, .NET Desktop App Dev"),

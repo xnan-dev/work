@@ -1,5 +1,7 @@
 <?php function bandSkillsAndTech() { ?>
-              <div class="row">
+
+  <div class="row">
+
                 <div class="col band-info">    
                   <p class="i2"><b><?php lang("Desarrollo Web Full Stack","As FullStack developer");?></b></p>
                   <p class="i2"><?php lang("API Rest, GIT, Web Frameworks, HTML5, CCS3, Javascript");?></p>
@@ -37,16 +39,10 @@
 
                 <div class="col band-info">    
                   <p class="i2"><b><?php lang("Misceláneas","Other skills and activities");?></b></p>
-                  <p class="i2"><?php lang("Métodos ágiles, SCRUM, prototipado rápido, análisis funcional, análisis de performance, pptimización SQL, SQL Server, MySQL, PostgreSQL, diseño y análisis de arqutitectura de software, 
+                  <p class="i2"><?php lang("Métodos ágiles, SCRUM, prototipado rápido, análisis funcional, análisis de performance, optimización SQL, SQL Server, MySQL, PostgreSQL, diseño y análisis de arqutitectura de software, 
                   reingeniería, deploy a producción, detección y remoción de cuellos de botella, mantenimiento de sistemas productivos","Agile methods, SCRUM, rapid prototyping, functional analysis, performance analyisis, SQL optimization, analysis and design of software architecture,  
                   reengineering, deployment to production, analysis and removal of bottlenecks,, maintenance of systems in production");?></p>
                   <p class="i2"></p>
-                </div>
-
-                <div class="col band-info">    
-                  <p class="i2"></p>
-                  <p class="i2"><b><?php lang("Habilidades Blandas","Soft skills");?></b></p>
-                  <p class="i2"><?php lang("Intervención proactiva ante riesgo técnico y cuellos de botella, capacidad de comunicación con equipos de ingeniería, guía de desarrolladores en formación, capacidad de renegociación de alcances y diseños para salida rápida a producción","");?></p>
                 </div>
 
               </div>

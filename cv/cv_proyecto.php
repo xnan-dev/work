@@ -20,7 +20,7 @@
 
         <?php if ($company!="") { ?>
         <tr>          
-          <td style="text-align: center; font-weight: bold; font-size:14pt;"><?php echo $company;?></td>
+          <td class="td_company"><?php echo $company;?></td>
         </tr>
         <?php } ?>
 

@@ -9,8 +9,10 @@ a {
 	text-decoration: none;
 	font-weight: bold;
 }
-  .cv {
-    font-family: "verdana";
+
+.cv {
+    /* font-family: "verdana"; */
+    font-family : 'Helvetica';
     width1: 1500px !important;
     background-color: white;
  	box-shadow: 10px 10px 43px 10px rgba(0,0,0,0.75);
@@ -38,7 +40,7 @@ img {
 	padding:20pt;
 }
 .div_b1 {
-	border-bottom:5px solid #FFCB00;
+	/*border-bottom:5px solid #FFCB00;*/
 }
 
   table {
@@ -72,8 +74,9 @@ img {
 		padding:0px;	
 	}
   .band_a,.row_top {
-    background-color: #FFCB00;
-  }
+     background-color: #545358;
+   }
+
   .band_b1 {
     background-color: #545358;
     color: #e0e0e0;
@@ -133,32 +136,38 @@ img {
     background-color: #1b1a17;
   }
 
-  .band-name {
+  .band-name, .band-sub-name {
     text-align: center;
     font-size:  30pt;
     padding: 0pt;
-    padding-top:100pt;
+    padding-top:25pt;
 
     font-family: Verdana, Geneva, sans-serif;
-font-size: 40px;
-letter-spacing: 2.6px;
-word-spacing: 0.8px;
-/*color: #444444;*/
-color:#e8e0b3;
-font-weight: 400;
-text-decoration: none;
-font-style: normal;
-font-variant: normal;
-text-transform: uppercase;
-height:25pt;
-text-shadow: 50px 50px 50px rgba(107,104,135,0.45);
+    font-size: 40px;
+    letter-spacing: 2.6px;
+    word-spacing: 0.8px;
+    /*color: #444444;*/
+    color:#e8e0b3;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    height:25pt;
+    text-shadow: 50px 50px 50px rgba(107,104,135,0.45);
+  }
+
+  .band-sub-name {
+    font-size:20px;
+    padding-top:20pt;
   }
 
   .band-update {
     color: #444444;
     font-size:  11pt;
+    margin:0pt;
     padding: 10pt;
-    margin-top:70pt;
+    margin-top:00pt;
     margin-right:10pt;
     text-align: right;
   }
@@ -186,6 +195,41 @@ text-shadow: 50px 50px 50px rgba(107,104,135,0.45);
 .p_trainings {
   font-size:10pt;
 }
+
+.img_profile {
+  width:175pt;margin-bottom:0pt;margin-top:00pt;border-radius:50%;margin-right:27pt;
+}
+
+
+/* nuevo estilo sobrio US */
+.img_profile {
+  display:none;
+}
+
+.td_company {
+  text-align: center; font-weight: bold; font-size:20pt;
+}
+
+.div_b1 {
+	border-bottom:5px solid #638d9c;
+}
+
+td.band_a {
+  background-color: #638d9c;
+}
+
+.band-update {
+  color: white;
+}
+
+.ii1,.ii2,.ii3 {
+ 	padding-bottom:7pt;
+}
+
+.ii1 { font-weight:bold; font-size:18pt;  }
+.ii2 { font-weight:bold; font-size:16pt; padding-bottom:19pt; }
+.ii3 { font-weight:normal; font-size:12pt; padding-bottom:15pt; }
+
 </style>
 <?php 
 
